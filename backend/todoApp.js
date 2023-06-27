@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 const fs = require("fs");
 const path = require("path");
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 function findIndex(arr, id) {
     for (let i = 0; i < arr.length; i++) {
