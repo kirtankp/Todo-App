@@ -126,7 +126,7 @@ app.delete('/todos/:id', (req, res) => {
     });
 });
 
-app.use("/", express.static(path.resolve(__dirname, "../frontend")));
+app.use("/", express.static(path.resolve(__dirname, "./frontend")));
 
 app.use((req, res) => {
     res.status(404).send('Route not found');
