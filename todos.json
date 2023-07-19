@@ -1,12 +1,22 @@
 [
     {
         "id": 466598,
-        "title": "Task 1",
-        "description": "Task 1 should be done before deadline."
+        "title": "Feature 1",
+        "description": "User can add new TODO by entering title and description."
     },
     {
         "id": 585721,
-        "title": "Task 2",
-        "description": "Task 2 should be start after Task 1 completion."
+        "title": "Feature 2",
+        "description": "Delete existing TODO by delete button(refresh the page after deletion)."
+    },
+    {
+        "id": 585722,
+        "title": "Feature 3",
+        "description": "Update the existing TODO."
+    },
+    {
+        "id": 585723,
+        "title": "FeedBack",
+        "description": "Feel free to test this application and share feedback to me."
     }
 ]
